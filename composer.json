@@ -1,0 +1,17 @@
+{
+    "name": "kevin/php-learning",
+    "description": "Simple vanilla PHP MVC layout",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kevin Michael",
+            "email": "biobot.mike@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    }
+}
