@@ -1,16 +1,17 @@
 <?php
 
+namespace App\Controllers;
+
+use App\Core\App;
+
 class PagesController
 {
     public function home()
     {
         $title = App::get('config')['app']['name'];
 
-        $tasks = App::get('database')->selectAll('todos');
-
         return view('index', [
-            'title' => $title,
-            'tasks' => $tasks
+            'title' => $title
         ]);
     }
 
